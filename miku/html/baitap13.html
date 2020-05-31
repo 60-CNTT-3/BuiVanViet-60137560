@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #demo{
+            width: 500px;
+            height: 250px;
+            border: double;
+            margin: auto;
+        }
+        h2{
+            font-weight: bold;
+            text-align: center;
+            margin-top: 10px;
+        }
+        form{
+            margin:10px 0px 0px 10px;
+        }
+        #vitri{
+            margin-left: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div id="demo"> <!--tạo khung-->
+        <h2>PHIẾU THĂM DÒ Ý KIẾN</h2>
+        <form action="" method="">
+            Tên đăng nhập: <input type="text">                          <!--checked là để chọn giúp ta 1 giới tính trước-->
+            Giới tính: <input name="gioitinh" type="radio" value="Nam" checked="checked">Nam  <!--type = "radio" chỉ cho chọn 1 lựa chọn-->
+                       <input name="gioitinh" type="radio" value="Nữ">Nữ
+            <p>Những mục bạn thường quan tâm trên Internet</p>
+            <div id="vitri">    <!--điều chỉnh vị trí của label-->
+                <input type="checkbox" name="vehicle1" value="Tin tức"> <!--checkbox: cho phép ko chọn hoặc chọn nhiều hơn-->
+                <label for="vehicle1"> Tin tức</label>
+                <br>
+                <input type="checkbox" name="vehicle1" value="Giải trí">
+                <label for="vehicle1"> Giải trí</label>
+                <br>
+                <input type="checkbox" name="vehicle1" value="Góc học tập">
+                <label for="vehicle1"> Góc học tập</label>
+                <br>
+                <input type="checkbox" name="vehicle1" value="Các mục khác">
+                <label for="vehicle1"> Các mục khác</label>
+                <br>
+                <input type="submit" value="Gửi đi"> 
+                <input type="reset" value="Phục hồi">   <!--reset tất cả giá trị của form sang giá trị mặc định-->
+            </div>
+        </form>
+    </div>
+</body>
+</html>
