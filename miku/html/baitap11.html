@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #demo{
+            border: 1px solid black;
+            width: 520px;
+            height: 250px;
+            margin: auto;
+        }
+        h1{
+            text-align: center;
+            margin: 10px 0px 0px 0px;
+        }
+        table,tr,td{
+            border: 1px solid black;
+            width: 500px;
+            border-collapse: collapse;  /*gộp lại*/
+            text-align: center;
+            margin: auto;
+        }
+        .a{
+            text-align: left;
+        }
+        .mausac{
+            background: #11c92f;
+        }
+    </style>
+</head>
+<body>
+    <div id="demo"> <!--tạo border-->
+        <h1>KẾT QUẢ HỌC TẬP</h1>
+        <table>
+            <tr class="mausac">    <!--tạo hàng 1-->
+                <td rowspan="2">Họ và Tên <br> Học Sinh</td>   <!--tạo cột-->
+                <td colspan="2"> Năm sinh</td>
+                
+                <td rowspan="2"> Điểm TB</td>
+                <td rowspan="2">Xếp Loại</td>
+            </tr>
+            <tr class="mausac">    <!--tạo hàng 2-->
+               
+                <td>Nam</td>
+                <td>Nữ</td>
+                
+            </tr>
+            <tr>    <!--tạo hàng 3-->
+                <td class="a">Lê Thanh Xuân</td>   <!--tạo cột-->
+                <td></td>
+                <td>1950</td>
+                <td>8.5</td>
+                <td>Giỏi</td>
+            </tr>
+            <tr>    <!--tạo hàng 4-->
+                <td class="a">Phan Thế Hạ</td>   <!--tạo cột-->
+                <td>1985</td>
+                <td></td>
+                <td>6.5</td>
+                <td>Khá</td>
+            </tr>
+            <tr>    <!--tạo hàng 5-->
+                <td class="a">Trần Hoài Thu</td>   <!--tạo cột-->
+                <td></td>
+                <td>1986</td>
+                <td>9.5</td>
+                <td>Xuất Sắc</td>
+            </tr>
+            <tr>    <!--tạo hàng 6-->
+                <td class="a">Trương Lưu Đông</td>   <!--tạo cột-->
+                <td>1984</td>
+                <td></td>
+                <td>6.0</td>
+                <td>Trung Bình</td>
+            </tr>
+            <tr>    <!--tạo hàng 7-->
+                <td class="a">Lưu Thế Mạc</td>   <!--tạo cột-->
+                <td>1985</td>
+                <td></td>
+                <td>4.5</td>
+                <td>Kém</td>
+            </tr>
+            <tr class="mausac">    <!--tạo hàng 8-->
+                <td colspan="3">Tổng số học sinh đạt: </td>   <!--tạo cột-->
+                <td colspan="2">4 học sinh</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
