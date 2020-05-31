@@ -1,0 +1,217 @@
+#container{
+    width: 900px;
+    margin: auto;   /*đưa ra giữa màn hình*/
+    border: 1px solid black;
+    height: 895px;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+ul li{
+    list-style: none;
+}
+#head{
+    height: 100px;
+    margin: 0px;
+}
+#head #logo{
+    width: 60px;
+    height: 40px;
+    border: 1px solid black;
+    margin: 10px 0px 0px 10px;  
+    line-height: 40px; 
+    padding-left: 15px;
+    background: lightgrey;
+}
+#head #tkweb p{
+    width: 75px;
+    margin: 20px 0px 0px 10px;
+    background: lightgrey;
+}
+#head #button{
+    float: right;
+    margin: -70px 20px 0px 0px;
+}
+button{
+    padding: 5px;
+    margin-left: 10px;
+}
+
+#head #link ul li a.aa{
+    border: none;
+}
+#head #link a {
+    float: right;
+    text-decoration: none;
+    padding: 0px 8px 0px 10px;
+    border-right: 1px solid rgb(107, 107, 221);
+}
+a:hover{
+    color: blue;
+}
+
+/*------------------------Menu--------------------------*/
+
+#menu{
+    margin: 0px;
+    height: 50px;
+    background: rgb(197, 189, 180);
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+
+}
+
+#menu ul li a{
+    
+    line-height: 30px;
+    text-decoration: none;
+    float: left;
+    text-transform: uppercase;
+    padding: 10px;
+    color: cornsilk;
+    border-right: 1px solid black;
+}
+#menu ul li a.lienhe{
+    border: none;
+}
+#menu ul li a:hover{
+    color:blue
+}
+/*-------------------------main-------------------------*/
+#main{
+    height: 600px;
+    margin: 0px;
+}
+/*--------------------Main Left---------------------*/
+#main #left{
+    float: left;
+    width: 600px;
+}
+#hinh{
+    float: left;
+    width: 200px;
+    height: 100px;
+    background: blanchedalmond;
+    line-height: 100px;
+    padding: 0px;
+    border: 1px solid black;
+    margin-left: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+h3{
+    float: left;
+    color: blue;
+    margin: 10px 0px 0px 20px;
+}
+#text p{
+    margin-top: 50px;
+    margin-left: 230px;
+}
+#all{
+    margin-top: 20px;
+    margin-left: 20px;
+    width:580px;
+    height: 70px;
+    background: lightgrey;
+}
+#ovuong{
+    width: 70px;
+    height: 50px;
+    background: rgb(119, 145, 145);
+    border: 1px solid black;
+    float: left;
+    margin: 10px 12px 0px 10px;
+}
+#noidung{
+    margin-left: 20px;
+}
+#tintuc{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(123, 174, 207);
+    margin-left: 20px;
+}
+#noidung ul li{
+    width: 75px;
+    background: rgb(219, 219, 219);
+    font-weight: bold;
+    font-size: 16px;
+}
+#noidung ul p{
+    margin-top: 0px;
+    color: mediumaquamarine;
+}
+#banner1{
+    width:580px;
+    height: 50px;
+    background: rgb(79, 202, 182);
+    margin: 20px 0px 0px 20px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    border: 1px solid black;
+}
+#right{
+    float: left;
+    margin-left: 20px;
+    width: 250px;
+}
+#linklienquan{
+    color: blue;
+    font-size: 18px;
+    margin-top:10px;
+}
+#link2 ul li{
+    margin: 10px 0px 10px 0px;
+}
+#link2 ul li a{
+    text-decoration: none;
+}
+#banner2{
+    width: 240px;
+    height: 50px;
+    background: burlywood;
+    margin: 10px 0px 10px 0px;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+}
+#footer{
+    border: 1px solid black;
+    margin-top: 20px;
+    clear: left;
+    height: 120px;
+    border-left: none;
+    border-right: none;
+}
+#footer #left{
+    margin-left: 20px;
+    margin-top: 20px;
+    float: left;
+}
+#footer #left p{
+    margin-top: -10px;
+}
+#footer #right{
+    width: 270px;
+    float: right;
+    margin: 20px 20px 0px 0px;
+}
+#footer #right #link3 a{
+    margin: 3px;
+    text-decoration: none;
+    border-right: 1px solid blue;
+    padding-right: 5px;
+}
+#footer #right #link3 a.abc{
+    border-right: none;
+}
+#footer #right p{
+    margin-top: 0px;
+    text-align: right;
+    margin-right: 10px;
+}

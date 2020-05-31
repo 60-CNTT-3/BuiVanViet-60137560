@@ -1,0 +1,22 @@
+#container{
+    margin: 0px auto;
+
+    width: 1000px;
+    height: 500px;
+}
+#menu{
+    width: 1000px;
+    height: 80px;
+    background-image: url('../image/8797.jpg_wh860.jpg');
+}
+#logo{
+    color: rgb(22, 207, 93);
+    padding-left: 40px;
+}
+#logo h1.mau{
+    color: lightcoral;
+}
+#menu p{
+    margin:-20px 0px 0px 50px;
+    color: cornsilk;
+}
