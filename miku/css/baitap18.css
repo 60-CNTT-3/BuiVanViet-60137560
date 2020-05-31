@@ -1,0 +1,85 @@
+#container{
+    margin: auto ;  /*đưa ra giữa màn hình*/
+    padding: 0;
+    width: 810px;
+    height: 500px;
+    border: 1px solid burlywood;
+}
+
+/*-----------------------Header--------------------------*/
+#header{
+    margin: 1px;
+    height: 70px;
+    background-image: url('../image/8797.jpg_wh860.jpg');
+    border: 1px solid burlywood;
+}
+#header h1{
+    margin: 0px;
+    padding: 10px 0px 0px 20px; /* top right bottom left*/
+    color: rgb(197, 51, 40);
+}
+#header p{
+    margin: -2px 0px 0px 70px;
+    color: white;
+}
+/*---------------------Left-----------------------------*/
+#left{
+    margin: 1px;
+    width: 200px;
+    float: left;
+    border: 1px solid burlywood;
+    height: 390px;
+}
+#left p{
+    font-weight: bold;
+    font-size: 18px;
+}
+#left a:hover{
+    color: rgb(197, 9, 97);
+}
+
+/*-----------------------Midle-------------------------*/
+#midle{
+    margin: 1px;
+    float: left;
+    width: 400px;
+    border: 1px solid burlywood;
+    height: 390px;
+}
+#midle p{
+    font-size: 20px;
+    font-weight: bold;
+}
+/*----------------------Right--------------------------*/
+#right{
+    margin: 1px;
+    float: left;
+    width: 198px;
+    height: 390px;
+    border: 1px solid burlywood;
+}
+#right p{
+    font-size: 20px;
+    font-weight: bold;
+}
+#right img{
+    width: 190px;
+    height: 200px;
+    margin-left: 4px;
+}
+
+/*-----------------------Footer------------------------*/
+#footer{
+    margin: 1px;
+    clear: left;
+    width: 806px;
+    height: 30px;
+    border:1px solid burlywood;
+    background: rgb(116, 181, 238);
+}
+#footer p{
+    margin-top: 0px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
